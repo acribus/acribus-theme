@@ -1,0 +1,79 @@
+@media screen and (max-width: 639px) {
+
+  .el-form--inline .el-form-item {
+    margin-bottom: 16px;
+  }
+
+  .sp-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: var(--header-height);
+    padding-right: var(--header-height);
+    z-index: 999;
+  }
+  .sp-logo {
+    display: inline-block;
+    text-align: left;
+  }
+  .sp-left-side {
+    position: fixed;
+    top: var(--header-height);
+    left: 0;
+    width: 100%;
+    height: 0;
+    background: var(--bg-color);
+    overflow-y: auto;
+    transition: height 0.3s ease-out;
+    z-index: 999;
+  }
+  .sp-left-side.show {
+    height: calc(100% - var(--header-height));
+  }
+  .sp-left-side .close {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: calc(var(--header-height) * 0.6);
+    height: calc(var(--header-height) * 0.6) !important;
+    line-height: calc(var(--header-height) * 0.6) !important;
+    margin: calc(var(--header-height) * 0.2);
+    border-radius: 4px;
+    border-left: none;
+    padding: 0;
+    padding-left: 0 !important;
+    background: var(--bg-color-darker);
+    color: var(--text-color);
+    text-align: center;
+  }
+  .sp-left-side .close i {
+    margin-right: 0;
+  }
+  .sp-left-side .el-menu .el-submenu__title,
+  .sp-left-side .el-menu .el-menu-item {
+    height: 3rem;
+    line-height: 3rem;
+  }
+  .sp-right-side {
+    margin-top: var(--header-height);
+  }
+  .sp-card.flex {
+    flex-wrap: wrap;
+  }
+  .sp-card.flex > * {
+    width: 100% !important;
+    margin-top: 1rem;
+    margin-left: 0 !important;
+  }
+  .sp-card.flex > *:first-child {
+    margin-top: 0;
+  }
+  .sp-card .el-form + .el-pagination {
+    text-align: center;
+  }
+  .el-dialog {
+    width: 90% !important;
+  }
+
+}
