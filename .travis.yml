@@ -1,0 +1,12 @@
+sudo: false
+language: node_js
+node_js: lts/*
+deploy:
+  provider: npm
+  email: fzyde123@gmail.com
+  api_key:
+    secure: HKV161HgS4tV89YsaL5uO26k2vZo2f7iTyPJjpKZ4oPisP0rjtgDnJf+757s03mYswKyPgZFNDmYEUnYRmrtkO/Qr0EmvlnzdFHCaFKrI3AO0QAv497pRfwO4zS4b+e1ksv39aBIWnZJTNgipE7a6c18s9Fo4yzS1tC9f4KHbBv969qDoxEOnkROtHc/IxGoD4xmDo2DwQoY7rNonk2vfXn+poJI9T0B/O/OXMVbpWKX6DEbCzzgBmlDhUleM/GEN000ySSAhqbaXU27gAagYicPIcpQt60xsOmufvePVoT/ZnAosMH9ot6+uV3bbQ8Lc6c05N706DwnMyXTHpyB7Ywiq3//sHgWyF8aDdSkf2UJfQ1AKls+BCvE0ixQUN7R3sXF/ILPwaEDtCd0deEwkNsfmNknPBjz3xyWtr8LC0K/93iwseUCGHN3AkKbsOZOpJotPsIrZFgguXHjmMtduG4o4piNSlxrynBKVhQefIVp7dlgkdTpm9nRFotS/yIsV9rx4ujnMkcfiVBV9IeBuo8qaLyZ0JfhJVaLtl9jWF3E+gXYj7WDdwFhbcSqkCKotJimpMBuh3DIw30r4qFfILl36VPeLhtRqLPOBQQhOyYEoaiNH578wxzQgdVv4kcrxz0loSwFUQcin2bLwo4lIzzGh0UF/RE9rhuHGWwgrCs=
+  on:
+    tags: true
+    repo: acribus/acribus-theme
+    branch: master
