@@ -10,4 +10,4 @@ deploy:
   on:
     tags: true
     repo: acribus/acribus-theme
-    branch: master
+    all_branches: true
