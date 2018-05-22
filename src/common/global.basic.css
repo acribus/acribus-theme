@@ -81,6 +81,14 @@ svg + * {
 .el-submenu__title:hover {
   background-color: var(--bg-color-dark) !important;
 }
+input:disabled,
+select:disabled,
+textarea:disabled {
+  color: var(--text-color-dark) !important;
+}
+.el-checkbox__input.is-disabled + span.el-checkbox__label {
+  color: var(--text-color-dark) !important;
+}
 .sp-header {
   background: var(--bg-color);
   color: var(--text-color-light);
