@@ -1,5 +1,7 @@
 # Shopee themes
 
+[![Build Status](https://travis-ci.com/acribus/acribus-theme.svg?branch=master)](https://travis-ci.com/acribus/acribus-theme)
+
 ## Develop
 Custom theme in `src/[theme-name]/` directory
 Use `yarn run compile` to compile all themes
