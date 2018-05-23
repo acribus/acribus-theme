@@ -4,9 +4,8 @@ node_js: lts/*
 script: true
 deploy:
   provider: npm
-  email: fzyde123@gmail.com
-  api_key:
-    secure: 3Fg6uKKRULfNBMQa4wWsWVjo7dPjBUWfqcU4nyy9chW78LVZjHn5ujfveIccNBe9wcueioNTexMJmwCdY6IYMslUKKUas738Xu5Y6kPujLcNmvBmybuNnz4cqnro8RjTAjLJJO9VyNgNf5J2dgqBEr2676DgpTlCW/W1pFWQv18ROdxz3qXuSaAA84cwEJqRKc4nOpjYFBM5gprTSNFaIigNI7DcTEV1r0vToYIB5EjJzh1UQHV2Yhhzbruy+bK+mzPPLkv13uIjP39xxPSzy5WSt8cGNHLRequl8w7RuntSG738be9TC1CpfOWagjcCW9HDeFfdBlfBC+5VV3hM3OqbbO3TB61MqsORswpud8aM8XMKHdzltLXgGMqhFk5gEjv3xnkgv0jkYN8RWrWo0UHBJF5gXQKOoyALx7yF9ybRjp0bT40LsPu+sN8iGMNQOUmmk0sQwpyWfl+vA/u/UFoEYUTU0651NVWJvpHWmbCBiysplL9K1FdAdeONzLA4S2J8c0AfZHbcfeYr/DVnhf2Tm48CWtpm7F/UphKziSwqkU19ao7BZeaxjn8GOzoMbYoSJxLcPHPactnkiNd43r0NmTBli+ns83OTvpIAIrH52lLC6FNlhsfUvc7W+DMrMI8TrvZyPfvnq9RpI3qck2xnQS0kXty+C5KBsv3JGIo=
+  email: "$NPM_EMAIL"
+  api_key: "$NPM_TOKEN"
+  skip_cleanup: true
   on:
     tags: true
-    repo: acribus/acribus-theme
