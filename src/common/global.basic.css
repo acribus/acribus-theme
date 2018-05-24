@@ -91,6 +91,10 @@ button:disabled {
 .el-checkbox__input.is-disabled + span.el-checkbox__label {
   color: var(--text-color-dark) !important;
 }
+.el-dropdown-menu {
+  max-height: 30rem;
+  overflow-y: auto;
+}
 .sp-header {
   background: var(--bg-color);
   color: var(--text-color-light);
