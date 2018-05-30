@@ -85,11 +85,14 @@ input:disabled,
 select:disabled,
 textarea:disabled,
 select:disabled,
-button:disabled {
-  color: var(--text-color-dark) !important;
+button:disabled,
+.el-button.is-disabled {
+  color: var(--text-color) !important;
+  background: var(--bg-color-light) !important;
+  border-color: #e4e7ed !important;
 }
 .el-checkbox__input.is-disabled + span.el-checkbox__label {
-  color: var(--text-color-dark) !important;
+  color: var(--text-color) !important;
 }
 .el-dropdown-menu {
   max-height: 30rem;
