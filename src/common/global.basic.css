@@ -76,7 +76,7 @@ svg + * {
   box-sizing: border-box;
 }
 .el-menu-item.is-active {
-  border-left-color: var(--color-primary);
+  border-left-color: var(--bg-color-light);
 }
 .el-submenu__title:hover {
   background-color: var(--bg-color-dark) !important;
@@ -85,7 +85,7 @@ input:disabled,
 select:disabled,
 textarea:disabled,
 select:disabled,
-button:disabled,
+button:disabled:not(.btn-prev):not(.btn-next),
 .el-button.is-disabled {
   color: var(--text-color) !important;
   background: var(--bg-color-light) !important;
@@ -167,7 +167,7 @@ button:disabled,
   display: none;
 }
 .sp-card h1 {
-  margin: 0 0 1rem;
+  margin: 0.5rem 0 2rem;
   font-size: 20px;
   font-weight: 400;
 }
