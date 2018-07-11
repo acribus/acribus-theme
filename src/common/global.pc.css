@@ -38,6 +38,9 @@
   .el-form {
     display: table;
   }
+  .sp-a-table .el-form {
+    display: block;
+  }
   .el-form fieldset {
     width: 100%;
     display: table-row;
