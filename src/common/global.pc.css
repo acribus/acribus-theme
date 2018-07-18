@@ -49,25 +49,6 @@
     border: 1px solid #dcdfe6;
     border-radius: 4px;
   }
-  .sp-form-table {
-    display: table;
-    width: 100%;
-  }
-  .sp-hooks + .el-form,
-  .sp-hooks + .sp-card + .el-form {
-    display: block;
-  }
-  .el-form-item {
-    display: table-row;
-    width: 100%;
-  }
-  .el-form-item__label,
-  .el-form-item__content {
-    display: table-cell;
-    float: none;
-    padding-bottom: var(--card-spacing);
-    vertical-align: top;
-  }
   .el-form--inline {
     display: block;
     margin-bottom: var(--card-spacing);
