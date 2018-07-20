@@ -242,6 +242,7 @@ button:disabled:not(.btn-prev):not(.btn-next),
   opacity: 0;
   transform: translateX(0);
   transition: opacity 0.3s, transform, 0.3s;
+  z-index: 5;
 }
 .el-table:hover + .sp-column-edit-button,
 .sp-column-edit-button:hover {
