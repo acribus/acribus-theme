@@ -161,10 +161,10 @@
   .sp-nested-view .sp-card {
     padding: 0;
   }
-  td .sp-action-btn {
+  .el-table .cell .el-button.sp-action-btn {
     margin-bottom: 5px;
   }
-  td .sp-action-btn:last-child {
+  .el-table .cell .el-button.sp-action-btn:last-child {
     margin-bottom: 0;
   }
 }
