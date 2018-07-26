@@ -161,5 +161,10 @@
   .sp-nested-view .sp-card {
     padding: 0;
   }
-
+  .sp-action-btn {
+    margin-bottom: 5px;
+  }
+  .sp-action-btn:last-child {
+    margin-bottom: 0;
+  }
 }
