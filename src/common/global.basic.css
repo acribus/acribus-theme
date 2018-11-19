@@ -265,3 +265,13 @@ button:disabled:not(.btn-prev):not(.btn-next),
 .sp-card .el-form + .el-pagination {
   margin-top: calc(2 * var(--card-spacing));
 }
+/* table 内编辑样式 */
+.editable-cell-value-wrap {
+  padding: 5px 12px;
+  cursor: pointer;
+  border-radius: 3px;
+  border: 1px dashed transparent;
+}
+.editable-cell-value-wrap:hover {
+  border: 1px dashed gray;
+}
