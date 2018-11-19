@@ -269,9 +269,9 @@ button:disabled:not(.btn-prev):not(.btn-next),
 .editable-cell-value-wrap {
   padding: 5px 12px;
   cursor: pointer;
-  border-radius: 3px;
-  border: 1px dashed transparent;
+  border-radius: 4px;
 }
 .editable-cell-value-wrap:hover {
-  border: 1px dashed gray;
+  border: 1px solid #d9d9d9;
+  padding: 4px 11px;
 }
